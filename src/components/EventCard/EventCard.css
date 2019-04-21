@@ -1,0 +1,53 @@
+.EventCard {
+  width: 100%;
+  border-radius: 10px;
+  background: #FFFFFF;
+  box-shadow: 0 2px 11px 0 rgba(0, 0, 0, 0.05);
+  margin-bottom: 1em;
+}
+
+.EventCard>a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+.EventCard figure {
+  width: 100%;
+  min-height: 250px;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.EventCard .content {
+  display: flex;
+}
+
+.EventCard .content>aside {
+  margin-right: 1em;
+  text-align: center;
+}
+
+.EventCard .content>aside,
+.EventCard .content>div {
+  padding: 1em;
+  display: inline-block;
+}
+
+.EventCard .content>aside h3 {
+  font-size: 1em;
+}
+
+.EventCard .content>aside h4 {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 0.75em;
+  margin-bottom: 0.5em;
+}
+
+.EventCard .content>div h3 {
+  font-size: 1em;
+}

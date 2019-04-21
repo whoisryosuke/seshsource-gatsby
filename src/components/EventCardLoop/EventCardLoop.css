@@ -1,0 +1,11 @@
+.EventCardLoop {
+  display: flex;
+}
+
+.EventCardLoop>div {
+  margin-right: 1em;
+}
+
+.EventCardLoop>div:last-child {
+  margin-right: 0;
+}

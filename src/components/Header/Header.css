@@ -1,0 +1,30 @@
+.Header {
+  background-color: #FFF;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Header svg {
+  margin: 1.25em 1em;
+}
+
+.Header nav {
+  padding: 1em;
+}
+
+.Header ul {
+  margin: 0;
+}
+
+.Header nav li {
+  text-transform: uppercase;
+  display: inline-block;
+  margin-right: 2em;
+  font-size: 0.8rem;
+  ;
+}
+
+.Header nav li a {
+  color: #000;
+  text-decoration: none;
+}

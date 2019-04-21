@@ -1,0 +1,100 @@
+.EventWrapper__bg {
+  width: 100%;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: screen;
+  background-color: #F5CB5C;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: blur(6px);
+  -webkit-filter: blur(6px);
+}
+
+.EventPost {
+  background: #FFF;
+  box-shadow: 0 2px 11px 0 rgba(0, 0, 0, 0.05);
+  z-index: 50;
+  margin-bottom: 2em;
+}
+
+/** The top "card" header **/
+
+.EventPost header {
+  width: 100%;
+  display: flex;
+}
+
+.EventPost header figure,
+.EventPost article .content>div {
+  width: 65%;
+  position: relative;
+}
+
+.EventPost header figure {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  margin-bottom: 0;
+}
+
+/** Event Header Black box with event info */
+
+.EventPost header aside {
+  background: #000;
+  color: #FFF;
+}
+
+.EventPost header h1 {
+  font-size: 1.5em;
+}
+
+.EventPost header p {
+  font-size: 0.85em;
+}
+
+.EventPost header a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+
+
+.EventPost header aside,
+.EventPost article aside {
+  width: 35%;
+}
+
+.EventPost header aside>div {
+  padding: 3em 2em;
+}
+
+/** The content area of the card **/
+
+.EventPost article {}
+
+.EventPost article aside .TicketBtn {
+  width: 100%;
+  padding: 0.8em;
+  text-align: center;
+  background: #F5CB5C;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #000;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 1em;
+}
+
+
+.EventPost article .content {
+  display: flex;
+}
+
+.EventPost article .content>div {
+  padding: 2em;
+}

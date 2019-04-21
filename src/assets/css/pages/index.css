@@ -1,0 +1,17 @@
+.FrontpageSearch {
+  text-align: center;
+}
+
+.FrontpageSearch__search {
+  width: 100%;
+  display: flex;
+}
+
+.FrontpageSearch__search>div {
+  width: 25%;
+  padding: 1em;
+}
+
+.FrontpageSearch__search>div select {
+  width: 100%;
+}
